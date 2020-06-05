@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*Formatação de Indicardor do Carrousel*/
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #d4d4d4 !important; }
+
+.carousel-indicators li.active {
+  background-color: #073a70 !important; }
+
+/*Fundo da cor padrão do Site*/
+.bg-balloon {
+  background-color: #0a529e; }
+
+/*Cor padrão do site no botão*/
+.btn-outline-balloon {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff; }
+
+.btn-outline-balloon:hover {
+  color: #0a529e;
+  background-color: white;
+  border-color: white; }
+
+/*Cor do botão dos cards*/
+.btn-outline-card {
+  color: black;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  font-size: 1rem;
+  border-radius: 0.25rem; }
+
+.btn-outline-card:hover {
+  color: white;
+  background-color: #0a529e;
+  border-color: #0a529e; }
+
+/*Tamanho padrão de Icone do Card*/
+.icon-card {
+  font-size: 6rem; }
+
+/*Cor padrão do site no Icone do card*/
+.icon-card-balloon {
+  color: #0a529e; }
+
+/* Animação no card com transformação abaixo de 1*/
+.card-bg-shadow {
+  border: 0px;
+  box-shadow: 0px 5px 20px rgba(2, 2, 2, 0); }
+
+.card-bg-shadow:hover {
+  border: 0px;
+  box-shadow: 0px 5px 20px rgba(2, 2, 2, 0.178);
+  transition: all 0.2s ease;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* Animação no card com transformação acima de 1*/
+.card-bg-shadow-2 {
+  border: 0px;
+  box-shadow: 0px 0px 20px rgba(2, 2, 2, 0); }
+
+.card-bg-shadow-2:hover {
+  border: 0px;
+  box-shadow: 0px 0px 20px rgba(2, 2, 2, 0.178);
+  transition: all 0.4s ease;
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  z-index: 1; }
+
+.botao-bg-shadow-3 {
+  border: 0px solid white;
+  box-shadow: 0px 0px 20px rgba(2, 2, 2, 0); }
+
+.botao-bg-shadow-3:hover {
+  border: 0px;
+  box-shadow: 0px 0px 20px #fafafa;
+  transition: all 0.4s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 1; }
+
+/*Formatação de subtitulo do site*/
+.text-h3-balloon {
+  color: #c8cccf !important;
+  font-size: 1.60rem;
+  font-weight: none; }
+
+/*Formatação de Border-Radius*/
+.br-0 {
+  border-radius: 0; }
+
+/*Formatação de Margin Rigth*/
+.mr-05 {
+  margin-right: 0.08rem; }
+
+/*Formatação de Margin Top*/
+.mt-05 {
+  margin-top: 0.08rem; }
+
+/*Cor de fundo de container dos cards*/
+.bg-lines {
+  background-color: #e4e4e4; }
+
+/*Cor de fundo do Jumbutrom*/
+.bg-jun {
+  background-color: #fcfcfc; }
+
+/*Cor de Texto do Subtítulo*/
+.text-sub {
+  color: #a8a7a7 !important; }
+
+/*Cor do texto do Footer*/
+.text-footer {
+  color: #404447; }
+
+/*Tamanho da font do footer*/
+.fs-footer {
+  font-size: 1rem; }
+
+/*Cor do Hr no footer*/
+.bg-hr {
+  background-color: #404447; }
+
+/*Background do Footer*/
+.bg-footer {
+  background-color: #292d31; }
+
+/*Tamanho da font do logo*/
+.logo {
+  font-size: 2rem; }
+
+/*Formtação para tela menores de 575px*/
+@media (max-width: 575px) {
+  /*Cor de fundo de container dos cards*/
+  .bg-lines {
+    background-color: transparent !important; }
+
+  /* Animação no card com transformação acima de 1*/
+  .card-bg-shadow-2 {
+    border: 1px solid #dbdbdb;
+    box-shadow: 0px 0px 20px rgba(2, 2, 2, 0); } }
+@media (max-width: 680px) {
+  /*Tamanhos de font de acordo com o tamanho da tela*/
+  .fs-responsive-1 {
+    font-size: 1rem; }
+
+  .fs-responsive-15 {
+    font-size: 1.5rem; }
+
+  .fs-responsive-2 {
+    font-size: 2rem; }
+
+  .fs-responsive-3 {
+    font-size: 3rem; } }
+
+/*# sourceMappingURL=estilo.css.map */
