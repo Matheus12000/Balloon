@@ -1,2 +1,3 @@
 # Balloon
-Project made for studies with Css, Html and Bootstrap.
+
+Interface made for team project.
